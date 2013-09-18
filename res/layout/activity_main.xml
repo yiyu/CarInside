@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+    
+ <com.example.carinside.nav.MyLocationMapView
+         android:id="@+id/bmapView"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:clickable="true" />
+<com.example.carinside.music.MusicView
+     android:id="@+id/musicview"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_alignParentBottom="true"
+     android:layout_alignParentLeft="true"
+     android:layout_marginBottom="80dp"
+     android:paddingLeft="5dp"
+     android:paddingRight="5dp">
+     
+ </com.example.carinside.music.MusicView>
+ <com.capricorn.RayMenu
+     android:id="@+id/ray_menu"
+     android:layout_width="match_parent"
+     android:layout_height="55dp"
+     android:layout_alignParentBottom="true"
+     android:layout_alignParentLeft="true"
+     android:layout_marginBottom="19dp"
+     android:paddingLeft="5dp"
+     android:paddingRight="5dp" >
+ </com.capricorn.RayMenu>
+
+ <com.capricorn.VoiceMenu
+     android:id="@+id/Voice_menu"
+     android:layout_width="180dp"
+     android:layout_height="180dp"
+     android:layout_alignBottom="@+id/ray_menu"
+     android:layout_centerHorizontal="true"
+     android:paddingLeft="5dp"
+     android:paddingRight="5dp" >
+ </com.capricorn.VoiceMenu>
+
+ <ImageView
+     android:id="@+id/mic"
+     android:layout_width="100px"
+     android:layout_height="200px"
+     android:layout_alignParentRight="true"
+     android:layout_alignParentTop="true"
+     android:src="@drawable/mic" />
+ 
+</RelativeLayout>

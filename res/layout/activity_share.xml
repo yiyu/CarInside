@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ShareActivity" >
+
+    <Button
+        android:id="@+id/weibo"
+        android:layout_width="160px"
+        android:layout_height="100px"
+        android:layout_alignBaseline="@+id/jam"
+        android:layout_alignBottom="@+id/jam"
+        android:layout_alignLeft="@+id/weChat"
+        android:text="微博" />
+
+    <Button
+        android:id="@+id/jam"
+        android:layout_width="160px"
+        android:layout_height="100px"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/music"
+        android:layout_marginLeft="21dp"
+        android:text="堵车" />
+
+    <Button
+        android:id="@+id/weChat"
+        android:layout_width="160px"
+        android:layout_height="100px"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="17dp"
+        android:layout_toRightOf="@+id/jam"
+        android:text="微信" />
+
+    <Button
+        android:id="@+id/music"
+        android:layout_width="160px"
+        android:layout_height="100px"
+        android:layout_alignBaseline="@+id/weChat"
+        android:layout_alignBottom="@+id/weChat"
+        android:layout_toLeftOf="@+id/weibo"
+        android:text="music" />
+
+    <Button
+        android:id="@+id/accident"
+        android:layout_width="160px"
+        android:layout_height="100px"
+        android:layout_alignLeft="@+id/jam"
+        android:layout_alignRight="@+id/jam"
+        android:layout_below="@+id/jam"
+        android:text="事故" />
+
+    <Button
+        android:id="@+id/cop"
+        android:layout_width="160px"
+        android:layout_height="100px"
+        android:layout_alignLeft="@+id/weibo"
+        android:layout_alignRight="@+id/weibo"
+        android:layout_below="@+id/weibo"
+        android:text="cop" />
+
+    <ImageView
+        android:id="@+id/mic"
+        android:layout_width="160px"
+        android:layout_height="160px"
+        android:layout_below="@+id/accident"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:src="@drawable/mic" />
+
+</RelativeLayout>

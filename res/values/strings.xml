@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CarInside</string>
+    <string name="action_settings">Settings</string>
+    <!--string name="app_name">CarInside</string-->
+    <string name="title_paired_devices">已配对蓝牙设备</string>
+    <string name="title_other_devices">未配对蓝牙设备</string>
+    <string name="button_scan">搜索蓝牙</string>
+    <string name="none_found">没找到蓝牙设备</string>
+    <string name="none_paired">没有可供配对的蓝牙设备</string>
+    <string name="select_device">选择蓝牙设备</string>
+    <string name="scanning">正在查找蓝牙设备</string>
+    <string name="title_connected_to">设备连接到</string>
+    <string name="title_activity_poi_search">PoiSearchActivity</string>
+    <string name="title_activity_share">We Share</string>
+    <string name="demo_name_location">demo_name_location</string>
+    <string name="title_activity_addr_search">AddrSearchActivity</string>
+
+</resources>
